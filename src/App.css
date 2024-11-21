@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+.alert-form, .crypto-price-graph {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  align-items: center; /* Center-align content horizontally */
+  justify-content: center; /* Ensure everything stays centered */
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 80%; /* Optional: Adjust width */
+}
+
+.alert-form input, .crypto-price-graph select {
+  width: 60%; /* Center inputs and dropdowns */
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.chart-container {
+  width: 80%;
+  margin: 0 auto; /* Center the graph */
+}
+
+
+.content {
+  display: flex;
+  flex-direction: column; /* Stack all elements */
+  align-items: center; /* Center align all children */
+  gap: 20px; /* Space between elements */
+  width: 100%;
+}

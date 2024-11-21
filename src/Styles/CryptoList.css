@@ -1,0 +1,45 @@
+.crypto-list {
+    margin: 20px auto;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .crypto-list h2 {
+    color: #4caf50;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  /* Table Styling */
+  table {
+    margin: 0 auto; /* Center the table horizontally */
+    border-collapse: collapse;
+    width: 80%; /* Optional: Adjust width to fit */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center-align table content */
+  }
+  
+  th {
+    background-color: #4caf50; /* Green */
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 12px;
+  }
+  
+  td {
+    background-color: #ffffff; /* White for contrast */
+    color: #333333;
+    padding: 10px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light gray for even rows */
+  }
+  
+  tr:hover {
+    background-color: #ff9800; /* Orange for hover */
+    color: #ffffff;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  

@@ -1,0 +1,27 @@
+.crypto-price-graph {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.crypto-price-graph h2 {
+  color: #4caf50;
+  margin-bottom: 15px;
+}
+
+.crypto-price-graph select {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.crypto-price-graph select:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+.chart-container {
+  width: 80%;
+  margin: 0 auto;
+}
