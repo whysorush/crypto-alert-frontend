@@ -13,7 +13,7 @@ const AlertForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:5000/api/alerts', form);
+      await axios.post('https://crypto-alert-backend.onrender.com/api/alerts', form);
       alert('Alert created!');
       setForm({ crypto: '', condition: '', threshold: '', userEmail: '' });
     } catch (error) {

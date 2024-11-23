@@ -8,7 +8,7 @@ const CryptoList = () => {
   useEffect(() => {
     const fetchPrices = async () => {
       try {
-        const { data } = await axios.get('http://localhost:5000/api/crypto/prices');
+        const { data } = await axios.get('https://crypto-alert-backend.onrender.com/api/crypto/prices');
         setPrices(data);
       } catch (error) {
         console.error('Error fetching crypto prices:', error);

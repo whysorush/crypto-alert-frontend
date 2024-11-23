@@ -9,7 +9,7 @@ const AlertList = () => {
   useEffect(() => {
     const fetchAlerts = async () => {
       try {
-        const { data } = await axios.get('http://localhost:5000/api/alerts');
+        const { data } = await axios.get('https://crypto-alert-backend.onrender.com/api/alerts');
         setAlerts(data);
       } catch (error) {
         console.error('Error fetching alerts:', error);
@@ -20,7 +20,7 @@ const AlertList = () => {
 
   const handleDelete = async (id) => {
     try {
-      await axios.delete(`http://localhost:5000/api/alerts/${id}`);
+      await axios.delete(`https://crypto-alert-backend.onrender.com/api/alerts/${id}`);
       setAlerts(alerts.filter((alert) => alert._id !== id));
     } catch (error) {
       console.error('Error deleting alert:', error);
